@@ -12,7 +12,7 @@ const Terms = () => {
             Terms of Service
           </h1>
           <p class="font-body-lg text-body-lg text-on-surface-variant">
-            Last Updated: October 26, 2024
+            Last Updated: May 30, 2026
           </p>
           <p class="font-body-md text-body-md text-outline mt-4">
             Please read these Terms of Service carefully before using our
