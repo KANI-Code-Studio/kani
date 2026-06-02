@@ -2,11 +2,15 @@
   "rewrites": [
     {
       "source": "/course/iot-cohort-1",
-      "destination": "https://iot-cohort-1.vercel.app/course/iot-cohort-1"
+      "destination": "https://iot-cohort-1.vercel.app/course/iot-cohort-1/"
     },
     {
       "source": "/course/iot-cohort-1/:match*",
       "destination": "https://iot-cohort-1.vercel.app/course/iot-cohort-1/:match*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
     },
     {
       "source": "/sitemap.xml",
@@ -16,9 +20,5 @@
       "source": "/robots.txt",
       "destination": "/robots.txt"
     },
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
   ]
 }
