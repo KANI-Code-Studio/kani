@@ -9,6 +9,14 @@
       "destination": "https://iot-cohort-1.vercel.app/$1"
     },
     {
+      "source": "/course/fullstack-cohort-1/",
+      "destination": "https://fullstack-cohort-1.vercel.app/"
+    },
+    {
+      "source": "/course/fullstack-cohort-1/(.*)",
+      "destination": "https://fullstack-cohort-1.vercel.app/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/"
     },
